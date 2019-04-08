@@ -34,7 +34,7 @@ function switchAge(age) {
     case age: 
       return age >= 13 && age <= 19 ?
   "You are a teenager" :
-  "You are not a teenager"
+  "You have an age"
         break;
         default: 
           return "You have an age";
